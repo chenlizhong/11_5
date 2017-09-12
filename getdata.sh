@@ -1,6 +1,6 @@
 #!/bin/sh
 
-for k in {1..98};do
+for k in {1..100};do
     my_date=`date -d "-$k day"   +%Y%m%d`
     echo $my_date
     wget http://kaijiang.500.com/static/info/kaijiang/xml/hebsyxw/$my_date.xml
